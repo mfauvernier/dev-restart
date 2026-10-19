@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dev Restart 🚀
+
+**A personal learning dashboard built with Next.js, React, TypeScript and Tailwind CSS.**
+
+Dev Restart is a small web application created as part of my journey back into web development.
+
+The goal is to refresh my frontend development skills, practice modern React concepts, and build a foundation for future projects involving artificial intelligence.
+
+## Features
+
+- **Skills tracking** — Add and remove technologies from a personal learning list.
+- **Progress monitoring** — Mark technologies as mastered or still to learn.
+- **Dynamic statistics** — Automatically calculate the number of skills and overall progress.
+- **Local persistence** — Save and restore data using the browser's localStorage.
+- **Responsive dashboard** — A modern dark-themed interface built with Tailwind CSS.
+- **Input validation** — Prevent empty entries and duplicate technologies.
+
+## Tech Stack
+
+- **Next.js 16** — React framework using the App Router.
+- **React** — Interactive components and state management.
+- **TypeScript** — Static typing for more reliable code.
+- **Tailwind CSS** — Responsive UI styling.
+- **Git & GitHub** — Version control and source code management.
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/mfauvernier/dev-restart.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd dev-restart
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What I Learned
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project helped me revisit fundamental frontend development concepts:
 
-## Learn More
+- Creating reusable React components with typed props.
+- Managing interactive data with `useState`.
+- Working with JavaScript array methods such as `map()`, `filter()` and `some()`.
+- Handling forms and user interactions.
+- Persisting data using `localStorage`.
+- Understanding client-side rendering and React Hooks.
+- Organizing a Next.js project and maintaining a Git workflow.
 
-To learn more about Next.js, take a look at the following resources:
+## Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] Add editable skill names.
+- [ ] Introduce learning goals and task tracking.
+- [ ] Improve accessibility and user feedback.
+- [ ] Add automated tests.
+- [ ] Explore AI-powered learning recommendations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## About This Project
 
-## Deploy on Vercel
+Dev Restart is a learning project focused on rebuilding my development skills through hands-on practice.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+It is the starting point for a broader journey into modern frontend development and AI-powered web applications.
